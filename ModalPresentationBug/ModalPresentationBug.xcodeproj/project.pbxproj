@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		D9F710DB1D0F53B6009A3D62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F710DA1D0F53B6009A3D62 /* AppDelegate.swift */; };
-		D9F710DD1D0F53B6009A3D62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F710DC1D0F53B6009A3D62 /* ViewController.swift */; };
-		D9F710E01D0F53B6009A3D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F710DE1D0F53B6009A3D62 /* Main.storyboard */; };
 		D9F710E21D0F53B6009A3D62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F710E11D0F53B6009A3D62 /* Assets.xcassets */; };
 		D9F710E51D0F53B6009A3D62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F710E31D0F53B6009A3D62 /* LaunchScreen.storyboard */; };
+		D9F710EE1D0F5535009A3D62 /* MPRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F710EC1D0F5535009A3D62 /* MPRootViewController.swift */; };
+		D9F710EF1D0F5535009A3D62 /* MPRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F710ED1D0F5535009A3D62 /* MPRootViewController.xib */; };
+		D9F710F21D0F5546009A3D62 /* MPSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F710F01D0F5546009A3D62 /* MPSecondViewController.swift */; };
+		D9F710F31D0F5546009A3D62 /* MPSecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F710F11D0F5546009A3D62 /* MPSecondViewController.xib */; };
+		D9F710F61D0F5551009A3D62 /* MPThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F710F41D0F5551009A3D62 /* MPThirdViewController.swift */; };
+		D9F710F71D0F5551009A3D62 /* MPThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F710F51D0F5551009A3D62 /* MPThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9F710D71D0F53B6009A3D62 /* ModalPresentationBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalPresentationBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F710DA1D0F53B6009A3D62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9F710DC1D0F53B6009A3D62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D9F710DF1D0F53B6009A3D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9F710E11D0F53B6009A3D62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F710E41D0F53B6009A3D62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F710E61D0F53B6009A3D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F710EC1D0F5535009A3D62 /* MPRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPRootViewController.swift; sourceTree = "<group>"; };
+		D9F710ED1D0F5535009A3D62 /* MPRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPRootViewController.xib; sourceTree = "<group>"; };
+		D9F710F01D0F5546009A3D62 /* MPSecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPSecondViewController.swift; sourceTree = "<group>"; };
+		D9F710F11D0F5546009A3D62 /* MPSecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPSecondViewController.xib; sourceTree = "<group>"; };
+		D9F710F41D0F5551009A3D62 /* MPThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MPThirdViewController.swift; sourceTree = "<group>"; };
+		D9F710F51D0F5551009A3D62 /* MPThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MPThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				D9F710DA1D0F53B6009A3D62 /* AppDelegate.swift */,
-				D9F710DC1D0F53B6009A3D62 /* ViewController.swift */,
-				D9F710DE1D0F53B6009A3D62 /* Main.storyboard */,
 				D9F710E11D0F53B6009A3D62 /* Assets.xcassets */,
 				D9F710E31D0F53B6009A3D62 /* LaunchScreen.storyboard */,
 				D9F710E61D0F53B6009A3D62 /* Info.plist */,
+				D9F710EC1D0F5535009A3D62 /* MPRootViewController.swift */,
+				D9F710ED1D0F5535009A3D62 /* MPRootViewController.xib */,
+				D9F710F01D0F5546009A3D62 /* MPSecondViewController.swift */,
+				D9F710F11D0F5546009A3D62 /* MPSecondViewController.xib */,
+				D9F710F41D0F5551009A3D62 /* MPThirdViewController.swift */,
+				D9F710F51D0F5551009A3D62 /* MPThirdViewController.xib */,
 			);
 			path = ModalPresentationBug;
 			sourceTree = "<group>";
@@ -124,7 +136,9 @@
 			files = (
 				D9F710E51D0F53B6009A3D62 /* LaunchScreen.storyboard in Resources */,
 				D9F710E21D0F53B6009A3D62 /* Assets.xcassets in Resources */,
-				D9F710E01D0F53B6009A3D62 /* Main.storyboard in Resources */,
+				D9F710F71D0F5551009A3D62 /* MPThirdViewController.xib in Resources */,
+				D9F710EF1D0F5535009A3D62 /* MPRootViewController.xib in Resources */,
+				D9F710F31D0F5546009A3D62 /* MPSecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +149,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9F710DD1D0F53B6009A3D62 /* ViewController.swift in Sources */,
 				D9F710DB1D0F53B6009A3D62 /* AppDelegate.swift in Sources */,
+				D9F710F61D0F5551009A3D62 /* MPThirdViewController.swift in Sources */,
+				D9F710EE1D0F5535009A3D62 /* MPRootViewController.swift in Sources */,
+				D9F710F21D0F5546009A3D62 /* MPSecondViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D9F710DE1D0F53B6009A3D62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9F710DF1D0F53B6009A3D62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D9F710E31D0F53B6009A3D62 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
