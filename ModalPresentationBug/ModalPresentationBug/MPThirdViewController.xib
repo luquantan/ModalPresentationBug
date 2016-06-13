@@ -14,7 +14,22 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qm8-p7-Mdp">
+                    <rect key="frame" x="245" y="285" width="110" height="30"/>
+                    <state key="normal" title="Dismiss To Root">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="dismissToRootPressed:" destination="-1" eventType="touchUpInside" id="QrH-fA-fa9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.7215529758" blue="0.24844316120000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="qm8-p7-Mdp" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="CSx-ZZ-0xs"/>
+                <constraint firstItem="qm8-p7-Mdp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WCg-vE-VxN"/>
+            </constraints>
         </view>
     </objects>
 </document>
